@@ -60,7 +60,8 @@ header ul li a {
 }
 
 .hero-image {
-    width: 100%;
+    max-width: 100%;
+    max-height: auto;
     margin: 0 auto;
     padding: 25px 0px 25px 0px;
     display: flex;
