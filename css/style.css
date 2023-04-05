@@ -58,11 +58,10 @@ header ul li a {
 .hero-image {
     max-width: 100%;
     max-height: auto;
-    margin: 0 auto;
     padding: 25px 0px 25px 0px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
