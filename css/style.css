@@ -98,6 +98,10 @@ header ul li a {
     border: 2px solid red;
 }
 
+.skills {
+    padding: 24px;
+}
+
 .skills ul li {
     margin-left: 24;
     margin-right: 24px;
@@ -105,6 +109,10 @@ header ul li a {
     list-style-type: none;
     text-decoration: none;
     display: inline;
+    background-color: wheat;
+    border-radius: 25px;
+    padding: 10px 20px;
+    
 }
 
 /*------------FOOTER SECTION------------*/
