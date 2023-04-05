@@ -53,7 +53,7 @@ header ul li a {
     color: black;
 }
 
-/*------------HOME HERO SECTION----------------*/
+/*------------HOME PAGE HERO SECTION----------------*/
 
 .hero-image {
     max-width: 100%;
@@ -83,7 +83,7 @@ header ul li a {
     padding: 10px 20px;
 }
 
-/*------------ABOUT ME SECTION------------*/
+/*------------ABOUT ME PAGE------------*/
 
 .aboutme img{
     width: 500px;
@@ -94,14 +94,15 @@ header ul li a {
     display: flex;
     flex-direction: row;
     padding: 24px;
-    
 }
 
 .aboutme div {
     align-items: flex-start;
+    justify
 }
 .aboutme p {
     width: 50vw;
+    padding-bottom: 24px;
 }
 
 .aboutme button {
