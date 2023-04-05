@@ -55,16 +55,27 @@ header ul li a {
 /*------------HOME HERO SECTION----------------*/
 
 .hero-image img{
-    width: 500px;
-    
+    width: 50%;
+    border: 2px solid red;
 }
 
 .hero-image {
-    width: 500px;
+    width: 100%;
     margin: 0 auto;
     padding: 25px 0px 25px 0px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.hero-image p {
+    padding: 0px;
+}
+
+.hero-image div {
+    border: 2px solid blue;
 }
 
 .hero-image button {
