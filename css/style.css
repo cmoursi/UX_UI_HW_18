@@ -1,3 +1,86 @@
-h1 {
-    color: blue;
+header {
+    display: flex;
+    flex-direction: row;
+    vertical-align: top;
+    align-items: center;
+    justify-content:flex-start;
+
 }
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header img{
+    width: 300px;
+    height: 40px;
+    
+    
+}
+header ul {
+    justify-items: left;
+    /*border: 2px solid red;*/
+    padding-left: 10vw;
+}
+
+header ul li{
+    margin-left: 24;
+    margin-right: 24px;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero-image img{
+    width: 500px;
+    
+}
+
+.hero-image {
+    width: 500px;
+    margin: 0 auto;
+    padding: 25px 0px 25px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    
+}
+
+footer {
+    background: darkolivegreen;
+    width: auto;
+    height: fit-content;
+    padding: 5px;
+    
+}
+
+footer p{
+   color: beige;
+   font-size: 10px;
+}
+
+footer h2{
+    color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight:100
+}
+
+footer h1{
+    color:beige;
+}
+
