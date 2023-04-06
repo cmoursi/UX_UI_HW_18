@@ -16,7 +16,7 @@ li {
 
 /*-----------HEADER SECTION------------*/
 
-header {
+.nav-header {
     display: flex;
     flex-direction: row;
     vertical-align: top;
