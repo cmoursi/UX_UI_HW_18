@@ -136,6 +136,23 @@ header ul li a {
     
 }
 
+/*------------MY WORK SECTION------------*/
+.work-section {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.poi-dog {
+    width: 100%;
+
+}
+
+.wa-dol {
+  width: 100%;
+}
+
 /*------------FOOTER SECTION------------*/
 footer {
     background: black;
