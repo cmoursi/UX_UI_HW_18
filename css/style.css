@@ -56,18 +56,31 @@ header ul li a {
 /*------------HOME PAGE HERO SECTION----------------*/
 
 .hero-image {
-    max-width: 100%;
-    max-height: auto;
+    width: calc(100 vw);
+    height: auto;
     padding: 25px 0px 25px 0px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+}
+
+@media(min-width:800px) {
+    .hero-image {
+        flex-direction: row;
+        width: 100 vw;
+    }
+}
+
+@media(min-width:1100px) {
+    .hero-image {
+        width: 1100px;
+    }
 }
 
 .hero-image h1 {
     padding: 0px;
-    width: 75%;
+    width: 100%;
 }
 
 .hero-image div {
@@ -92,7 +105,8 @@ header ul li a {
 
 .aboutme {
     display: flex;
-    flex-direction: row;
+    width: calc(100 vw);
+    flex-direction: column;
     padding: 24px;
 }
 
@@ -100,8 +114,9 @@ header ul li a {
     align-items: flex-start;
     justify
 }
+
 .aboutme p {
-    width: 50vw;
+    width: 50 vw;
     padding-bottom: 24px;
 }
 
@@ -114,8 +129,22 @@ header ul li a {
 
 }
 
+@media(min-width:800px) {
+    .aboutme {
+        flex-direction: row;
+        width: 100 vw;
+    }
+}
+
+@media(min-width:1100px) {
+    .aboutme {
+        width: 1100px;
+    }
+}
+
 .skills {
     padding: 24px;
+    flex-wrap: wrap;
 }
 
 .skills h1 {
@@ -136,21 +165,59 @@ header ul li a {
     
 }
 
-/*------------MY WORK SECTION------------*/
+
+/*------------MY WORK PROJECTS SECTION------------*/
 .work-section {
     display: flex;
     flex-direction: column;
     
 }
 
-
+.poi-dog-container {
+    background: wheat;
+}
 .poi-dog {
     width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
 
+.poi-dog a img{
+    width: 600px;
+    height: auto;
+}
+
+@media (min-width: 960px) {
+    .poi-dog {
+        flex-direction: row-reverse;
+        max-width: 1500px;
+    }
+}
+.wa-dol-container {
 }
 
 .wa-dol {
   width: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+@media (min-width: 960px) {
+    .wa-dol {
+        flex-direction: row;
+        max-width: 1500px;
+    }
+}
+
+.wa-dol a img{
+    width: 600px;
+    height: auto;
 }
 
 /*------------FOOTER SECTION------------*/
@@ -162,14 +229,18 @@ footer {
     width: 100%;
     padding: 2px 0px 2px 10px;
     margin: 0;
+    display: flex;
+    flex-direction: column;
     
 }
 
 footer div {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
-    width: 190px;
+    justify-content: space-between;
+    width: 180px;
+  
 }
 
 footer p{
