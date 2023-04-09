@@ -144,16 +144,32 @@ header ul li a {
 
 .skills {
     padding: 24px;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
 }
+
 
 .skills h1 {
     font-weight: 100;
 }
+.skill-list {
+    display: flex;
+    flex-direction: column;
+}
+
+@media(min-width: 920px) {
+.skill-list{
+    
+   flex-direction: row;
+}
+}
 
 .skills ul li {
-    margin-left: 24;
-    margin-right: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
     padding: 0;
     list-style-type: none;
     text-decoration: none;
@@ -161,7 +177,7 @@ header ul li a {
     background-color: rgb(150, 83, 28);
     color: white;
     border-radius: 25px;
-    padding: 10px 20px;
+    padding: 1em 1em;
     
 }
 
